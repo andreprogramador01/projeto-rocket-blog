@@ -112,6 +112,8 @@
   main{
       display:flex;
       justify-content: center;
+      align-items:center;
+      flex-direction:column;
   }
   .post1{
       display: flex;
@@ -126,7 +128,7 @@
     width:569px;
     height:auto;
 }
-  .post1 .post1-data{
+  .post1-data{
       padding:16px 0;
       font-family:'Roboto',sans-serif;
       font-size: 16px;
@@ -157,5 +159,18 @@
   }
   .post1-secudarias .m-bottom{
       margin-bottom:48px;
+  }
+  .posts-rodape{
+      display:flex;
+      justify-content: space-between;
+      width: 1170px;
+      margin:63px 0 67px 0;
+  }
+  .posts-rodape img{
+      width: 370px;
+
+  }
+  .posts-rodape-item{
+      width:370px;
   }
   
